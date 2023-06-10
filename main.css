@@ -1,0 +1,550 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    height: 800px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container>div{
+    width: calc(100% / 5);
+    background-color: #ddd;
+    color: 585858;
+    position: relative;
+    border-right: 1px solid #fff;
+}
+/*start of the first section*/
+.first .one{
+    width: 100%;
+    height: 15%;
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:#fff;
+}
+.first .two{
+    width: 100%;
+        height: 20%;
+        background-color: #ddd;
+        position: absolute;
+        left: 0;
+        top: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        color: #fff;
+       /* border: 1px solid #fff001;  */
+}
+.first .info{
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.first .info>div{
+    width: 100%;
+    height: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.first .three,
+.first .five,
+.first .seven,
+.first .nine{
+color: #ddd;
+background-color: #585858;
+}
+/*end of the first section*/
+
+/*start of the second section*/
+.second .one{
+        width: 100%;
+            height: 15%;
+            background-color: orangered;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            text-transform: capitalize;
+            color: #fff;
+}
+.second .two {
+    width: 100%;
+        height: 10%;
+        background-color: #ddd;
+        position: absolute;
+        left: 0;
+        top: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        color: orangered;
+        font-size: 35px;
+        font-weight: bold;
+        /* border: 1px solid #fff001;*/
+}
+.second .down{
+    transform: translate(10px,10px);
+    -webkit-transform: translate(10px,10px);
+    -moz-transform: translate(10px,10px);
+    -ms-transform: translate(10px,10px);
+    -o-transform: translate(10px,10px);
+    font-size: 20px;
+    color: #585858;
+}
+.second .two::after{
+    content: "$";
+        position: absolute;
+        left: 30%;
+        top: 30%;
+        color: #585858;
+        font-size: 25px;
+}
+.second .two::before{
+    content: "99";
+        position: absolute;
+        left: 55%;
+        top: 30%;
+        color: #585858;
+        font-size: 25px;
+}
+
+.second .info {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.second .info>div {
+    width: 100%;
+    height: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.second .three,
+.second .five,
+.second .seven,
+.second .nine {
+    color: #ddd;
+    background-color: #585858;
+}
+.second .ten{
+    width: 100%;
+        height: 15%;
+        position: absolute;
+        left: 0;
+        top: 85%;
+       /*  border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.second .ten span{
+    width: 100px;
+    height: 40px;
+    background-color: #585858;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*end of the second section*/
+
+/*start of the third section*/
+.third .one {
+    width: 100%;
+    height: 15%;
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.third .two {
+    width: 100%;
+    height: 10%;
+    background-color: #ddd;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: orangered;
+    font-size: 35px;
+    font-weight: bold;
+    /* border: 1px solid #fff001;*/
+}
+
+.third .down {
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    -moz-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    font-size: 20px;
+    color: #585858;
+}
+
+.third .two::after {
+    content: "$";
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    color: #585858;
+    font-size: 25px;
+}
+
+.third .two::before {
+    content: "99";
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    color: #585858;
+    font-size: 25px;
+}
+
+.third .info {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.third .info>div {
+    width: 100%;
+    height: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.third .three,
+.third .five,
+.third .seven,
+.third .nine {
+    color: #ddd;
+    background-color: #585858;
+}
+
+.third .ten {
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    left: 0;
+    top: 85%;
+    /*  border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third .ten span {
+    width: 100px;
+    height: 40px;
+    background-color: #585858;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*end of the third section*/
+
+/*start of the fourth section*/
+.fourth .one {
+    width: 100%;
+    height: 15%;
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.fourth .two {
+    width: 100%;
+    height: 10%;
+    background-color: #ddd;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: orangered;
+    font-size: 35px;
+    font-weight: bold;
+    /* border: 1px solid #fff001;*/
+}
+
+.fourth .down {
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    -moz-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    font-size: 20px;
+    color: #585858;
+}
+
+.fourth .two::after {
+    content: "$";
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    color: #585858;
+    font-size: 25px;
+}
+
+.fourth .two::before {
+    content: "99";
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    color: #585858;
+    font-size: 25px;
+}
+
+.fourth .info {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.fourth .info>div {
+    width: 100%;
+    height: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.fourth .three,
+.fourth .five,
+.fourth .seven,
+.fourth .nine {
+    color: #ddd;
+    background-color: #585858;
+}
+
+.fourth .ten {
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    left: 0;
+    top: 85%;
+    /*  border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .ten span {
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*end of the fourth section*/
+
+/*start of the fifth section*/
+.fifth .one {
+    width: 100%;
+    height: 15%;
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.fifth .two {
+    width: 100%;
+    height: 10%;
+    background-color: #ddd;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: orangered;
+    font-size: 35px;
+    font-weight: bold;
+    /* border: 1px solid #fff001;*/
+}
+
+.fifth .down {
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    -moz-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    font-size: 20px;
+    color: #585858;
+}
+
+.fifth .two::after {
+    content: "$";
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    color: #585858;
+    font-size: 25px;
+}
+
+.fifth .two::before {
+    content: "99";
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    color: #585858;
+    font-size: 25px;
+}
+
+.fifth .info {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.fifth .info>div {
+    width: 100%;
+    height: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.fifth .three,
+.fifth .five,
+.fifth .seven,
+.fifth .nine {
+    color: #ddd;
+    background-color: #585858;
+}
+
+.fifth .ten {
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    left: 0;
+    top: 85%;
+    /*  border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth .ten span {
+    width: 100px;
+    height: 40px;
+    background-color: #585858;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*end of the fifth section*/
